@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/input_user_info/input_user_info",
+    "pages/about/about",
+    "pages/HD/HD",
+    "pages/personal_info/personal_info",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/deal/deal",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFA500",
+    "navigationBarTitleText": "携手童行",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_clicked.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "image/about.png",
+        "selectedIconPath": "image/about_clicked.png"
+      },
+      {
+        "pagePath": "pages/HD/HD",
+        "text": "公益活动",
+        "iconPath": "image/hd.png",
+        "selectedIconPath": "image/hd_clicked.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户中心",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user_clicked.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#FF8C00",
+    "backgroundColor": "#ffffff"
+  }
+}
