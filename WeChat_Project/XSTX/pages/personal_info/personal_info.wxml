@@ -1,0 +1,15 @@
+<!--pages/personal_info/personal_info.wxml-->
+<view class="background">
+  <!-- 用户个人信息展示页面 -->
+  <p class="title">您的个人信息：</p>
+  <view style="background-image: url(https://pic.imgdb.cn/item/60ba7e188355f7f71877d1aa.png);background-size: cover" class="w_bg">
+    <text class="text">姓名：<text class="info">{{name}}</text></text>
+    <text class="text">年龄：<text class="info">{{age}}</text></text>
+    <text class="text">联系方式：<text class="info">{{phone}}</text></text>
+    <text class="text">所在单位：<text class="info">{{address}}</text></text>
+  </view>
+  <button type="primary" form-type="submit" bindtap="changeinfo">修改个人信息</button>
+</view>
+
+
+

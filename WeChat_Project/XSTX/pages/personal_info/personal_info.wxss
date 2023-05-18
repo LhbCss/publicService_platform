@@ -1,0 +1,35 @@
+/* pages/personal_info/personal_info.wxss */
+.background{
+  height: 200vw;
+  width: 100vw;
+  background-color: #f2dea8;
+}
+.title{
+  font-weight: bolder;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  padding: 35rpx 35rpx 10rpx 35rpx;
+}
+.w_bg{
+  border: 1rpx solid #f2dea8;
+  width: auto;
+  height: 450rpx;
+  margin-bottom: 15rpx;
+}
+.text{
+  border-bottom: 2rpx solid gray;
+  margin: 45rpx 25rpx;
+  padding: 15rpx 15rpx 5rpx 15rpx;
+  display: flex;
+}
+.tiny_w_bg{
+  border: 1rpx solid #f2dea8;
+  width: auto;
+  height: 150rpx;
+  margin-bottom: 15rpx;
+}
+.info{
+  color: gray;
+  font-weight: normal;
+}
