@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.lin.POJO"/>
+    </typeAliases>
+    <mappers>
+        <!-- 加载 sql 映射文件 -->
+        <!--<mapper resource="com/lin/mapper/stuMapper.xml"/>-->
+        <package name="com.lin.DAO"/>
+    </mappers>
+</configuration>
