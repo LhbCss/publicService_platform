@@ -1,0 +1,45 @@
+.title{
+  width: 750rpx;
+  font-weight: bolder;
+  text-align: center;
+}
+.bg{
+  width: 750rpx;
+  height: 200vw;
+  background-color: #f2dea8;
+}
+.card{
+  border: 1rpx solid rgba(0, 0, 0, 0%);
+  width: auto;
+  height: 350rpx;
+  margin: 45rpx;
+  background-color: rgba(255, 255, 255, 60%);
+    /* ↓半圆角↓ */
+  border-radius: 30rpx;
+    /* ↓阴影与立体感↓ */
+  box-shadow: 1rpx 1rpx 20rpx gray;
+}
+.half_card{
+    border: 1rpx solid rgba(0, 0, 0, 0%);
+    width: auto;
+    height: 175rpx;
+    margin: 45rpx;
+    background-color: rgba(255, 255, 255, 60%);
+      /* ↓半圆角↓ */
+    border-radius: 30rpx;
+      /* ↓阴影与立体感↓ */
+    box-shadow: 1rpx 1rpx 20rpx gray;
+}
+.card_title{
+  margin: 10rpx;
+  font-weight: bolder;
+}
+.input{
+  border: 1rpx solid gray;
+  padding: 25rpx 0rpx 25rpx 0rpx;
+  font-size: large;
+  margin: 10rpx;
+}
+.text{
+  border: 1rpx solid black;
+}

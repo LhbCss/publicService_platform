@@ -1,0 +1,22 @@
+<!--pages/input_user_info/input_user_info.wxml-->
+<view class="bg">
+<!-- 用户个人信息修改页面 -->
+  <form bindsubmit="get_all_input">
+    <view class="title">个人信息输入页面：</view>
+    <view class="card">
+    <text class="card_title">姓名：</text>
+    <input class="input" name="name" value="{{name}}"/>
+    <text class="card_title">年龄：</text>
+    <input class="input" name="age" value="{{age}}"/>
+  </view>
+  <view class="card">
+    <text class="card_title">联系方式（手机号）：</text>
+    <input class="input" name="phone" value="{{phone}}"/>
+    <text class="card_title">单位：</text>
+    <input class="input" name="address" value="{{address}}"/>
+  </view>
+  <button type="primary" form-type="submit">提交</button>
+  </form>
+</view>
+
+
