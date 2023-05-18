@@ -1,0 +1,95 @@
+/**index.wxss**/
+.bg_1{
+  width: 750rpx;
+}
+.text1_1{
+  position: absolute;
+  color: gray;
+  font-size: 40rpx;
+  left: 45rpx;
+  top: 100rpx;
+}
+.text1_2{
+  position: absolute;
+  color: rgb(180, 180, 180);
+  font-size: 28rpx;
+  left: 45rpx;
+  top: 150rpx;
+}
+.text1_3{
+  position: absolute;
+  color: gray;
+  font-size: 32rpx;
+  text-align: center;
+  left: 45rpx;
+  top: 400rpx;
+}
+.bg_2{
+  width: 750rpx;
+  height: 500rpx;
+}
+.bg_2_1{
+  width: 690rpx;
+  height: 490rpx;
+  position: absolute;
+  left: 25rpx;
+  height: 350rpx;
+  top:620rpx;
+}
+.text2_1{
+  font-size: small;
+  position: absolute;
+  text-align: center;
+  top: 655rpx;
+  left: 265rpx;
+  font-weight: bolder;
+}
+.text2_2{
+  font-size: small;
+  color: gray;
+  text-align: center;
+  position: absolute;
+  top: 730rpx;
+  left: 55rpx;
+  right: 70rpx;
+}
+.bg3{
+  height: 700rpx;
+  width: 750rpx;
+}
+.text3_1{
+  font-size: x-large;
+  text-align: center;
+  font-weight: bolder;
+  position: absolute;
+  top: 1020rpx;
+  left: 275rpx;
+}
+.text3_2{
+  font-size: large;
+  color: gray;
+  position: absolute;
+  top: 1080rpx;
+  left: 275rpx;
+}
+.text3_3{
+  position: absolute;
+  top: 1150rpx;
+  left: 75rpx;
+  right: 75rpx;
+  text-align: center;
+}
+.text3_4{
+  position: absolute;
+  top: 1400rpx;
+  left: 75rpx;
+  color: red;
+  font-weight: bolder;
+}
+.cr{
+  font-size: x-small;
+  color: gray;
+  position: absolute;
+  left: 210rpx;
+  top:1650rpx;
+}

@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view>
+  <image src="https://pic.imgdb.cn/item/60ba43c38355f7f7185ceb10.png" class="bg_1" />
+  <text class="text1_1">携手童行</text>
+  <text class="text1_2">Be With You——\n一种为特殊儿童打造的\n互联网+公益服务平台</text>
+  <text class="text1_3">一个方便广大爱心人士\n获悉广州市内关爱特殊人群公益活动的小程序</text>
+</view>
+<view>
+  <image src="https://pic.imgdb.cn/item/60ba7c438355f7f718617b85.jpg" class="bg_2" />
+  <image src="https://pic.imgdb.cn/item/60ba7e188355f7f71877d1aa.png" class="bg_2_1" />
+  <text class="text2_2">特殊儿童是指与正常儿童在智力、感官、情绪、肢体、行为或语言等方面与正常儿童有显著差异的各类儿童。在2011年中山大学和广州残联开展的流行病学调查发现，在广州市普通幼儿园自闭症患病率为1/133。特殊儿童是折翼的天使，需要来自于我们更多的关爱，通过本平台您可以加入我们对特殊儿童的关爱的队伍中。</text>
+  <text class="text2_1">关爱特殊儿童群体\n我们在行动</text>
+</view>
+<view>
+  <text class="text3_1">关于我们</text>
+  <text class="text3_2">ABOUT US.</text>
+  <text class="text3_3">当前页面提供的公益活动——\n仅限广州市内如下片区：越秀区、海珠区、天河区、白云区、黄埔区、萝岗区、花都区、增城区</text>
+  <image src="https://pic.imgdb.cn/item/60ba86ab8355f7f718d9fc17.png" class="bg3">哈哈</image>
+</view>
+<text class="cr">©Copyright 广东工业大学华立学院</text>
