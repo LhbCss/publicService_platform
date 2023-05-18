@@ -1,0 +1,44 @@
+<view class="bg" style="background-image: url(https://pic.imgdb.cn/item/60c74209844ef46bb27ddd24.jpg);background-size:cover">
+  <view class="container">
+    <view class="title_box">
+      <text class="title">关于我们</text>
+    </view>
+    <text class="title_text">本小程序致力于为广大市民群众提供针对帮助特殊儿童的公益服务 项目。\n借助微信小程序的轻量性和易传播性，吸纳更多的人投身于公益事业当中。我们提供权威且官方的实时公益活动信息，并收集您的报名信息递交于主办方，并提供主办方的详细联系方式。</text>
+    <view class="t2_box">
+      <text class="title">
+        我们解决了什么问题？
+      </text>
+    </view>
+    <text class="q2">传统的参与公益活动存在三大难题：</text>
+    <text class="q_21">1、参与难</text>
+    <text class="a1">以传统方式获悉的公益项目一般都要求您是公益协会or以公益志愿团队的身份多人参与。</text>
+    <text class="q_22">2、获悉难</text>
+    <text class="a2">不同的主办单位与协办方发布公益活动信息的平台不同，难以让普通市民获悉</text>
+    <text class="q_23">3、知晓难</text>
+    <text class="a3">公益活动的参与流程与活动起止时间详情与各大注意事项的信息收集较为困难</text>
+    <view class="t3_box">
+      <text class="title">我们的解决方法：</text>
+    </view>
+    <view class="a4">
+      <text>通过网络自动获悉各大公益网站权威发布的公益活动项目。</text>
+      <text>\n通过微信小程序获取您的报名信息帮您提供于活动方。</text>
+      <text>\n为您展示活动详情与活动主办方老师的联系方式。</text>
+    </view>
+    <view class="t4_box">
+      <text class="title">信息收集来源于以下网站：</text>
+    </view>
+    <view class="web_box">
+      <view class="webside_box">
+        <text style="font-size: x-small;">广州公益网\n广州市慈善会\n广州市志愿者协会\n广州市公益慈善联合会\n广州特殊儿童发展促进会</text>
+      </view>
+      <view class="http">
+        <text style="border-bottom: 1rpx solid rgba(0, 0, 255, 50%);">https://www.gongyi020.com/\n</text>
+        <text style="border-bottom: 1rpx solid rgba(0, 0, 255, 50%);">http://www.gzcf.org/WebSite/Index.aspx\n</text>
+        <text style="border-bottom: 1rpx solid rgba(0, 0, 255, 50%);">http://www.gzvu.org.cn/index.html\n</text>
+        <text style="border-bottom: 1rpx solid rgba(0, 0, 255, 50%);">http://www.gzsgycslhh.com/\n</text>
+        <text style="border-bottom: 1rpx solid rgba(0, 0, 255, 50%);">https://jigou.asd-home.cn/Home/Index/index/jgid/577.html</text>
+      </view>
+    </view>
+    <text class="cr">©Copyright 广东工业大学华立学院</text>
+  </view>
+</view>
