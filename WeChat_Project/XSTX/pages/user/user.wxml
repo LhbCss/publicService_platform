@@ -1,0 +1,30 @@
+<!--pages/user/user.wxml-->
+<view style="background-image: url(https://pic.imgdb.cn/item/60ba93788355f7f7185dc726.png);background-size: cover" class="bg_size">
+  <view class="title">
+    <view>
+      <image src="{{userimage_path}}" class="tx"></image>
+    </view>
+    <text>{{username}}</text>
+  </view>
+  <view class="gongneng">
+    <view wx:if="{{username == '您还未登录！请登录！'}}">
+      <view class="gn_label" bindtap="no_login">个人信息</view>
+      <view class="gn_label" bindtap="no_login">我的报名</view>
+    </view>
+    <view wx:if="{{username != '您还未登录！请登录！'}}">
+      <view>
+        <view class="gn_label" bindtap="getUserInfo">个人信息</view>
+        <view class="gn_label" bindtap="goto_deal">我的报名</view>
+      </view>
+    </view>
+  </view>
+</view>
+<block>
+  <view wx:if="{{username == '您还未登录！请登录！'}}">
+    <button bindtap="denglu" class="login_button">点我登录</button>
+  </view>
+  <view wx:if="{{username != '您还未登录！请登录！'}}">
+    <button bindtap="logout" class="login_button">退出登录</button>
+  </view>
+</block>
+<text class="cr">©Copyright 广东工业大学华立学院</text>

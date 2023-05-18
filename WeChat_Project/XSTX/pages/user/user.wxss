@@ -1,0 +1,37 @@
+/* pages/user/user.wxss */
+.bg_size{
+  width: 750rpx;
+  height: 560rpx;
+}
+.title{
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 45rpx;
+}
+.tx{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.gongneng{
+  width: auto;
+  height: 270rpx;
+  margin-top: 15rpx;
+}
+.gn_label{
+  margin-left: 55rpx;
+  margin-right: 55rpx;
+  padding: 22rpx;
+  font-size: large;
+}
+.login_button{
+  margin-top: 95vw;
+}
+.cr{
+  font-size: x-small;
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
