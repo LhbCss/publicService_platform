@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+body, html { height:100%; overflow:hidden; }
+body { background:#93defe; background-size: cover; }
+img{ border:none;}
+
+.login_l_img img{width:500px; height:440px; }
