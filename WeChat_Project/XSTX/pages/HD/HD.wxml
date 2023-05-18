@@ -1,0 +1,14 @@
+<view class="bg_color" style="background-image: url(https://pic.imgdb.cn/item/60c5e6bc844ef46bb21c9a3e.png)">
+  <view>
+    <view class="card" wx:for="{{ tableData }}" wx:for-item="rowData">
+      <view class="image" style="background-image: url({{rowData.a_icon}});background-size: cover">
+      </view>
+      <view class="image" style="background-image: url({{rowData.a_image}});background-size: cover">
+      </view>
+      <view class="title">{{rowData.a_name}}</view>
+      <view class="info">{{rowData.a_lore}}</view>
+      <view class="date">活动举办时间：{{rowData.formatDate}}</view>
+      <button class="mini-btn" type="primary" size="mini" style="position: absolute; bottom: 15rpx; right: 25rpx;" bindtap="toDetail" data-rowdata="{{rowData}}">活动详情</button>
+    </view>
+  </view>
+</view>
